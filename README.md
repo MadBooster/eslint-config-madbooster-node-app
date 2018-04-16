@@ -5,6 +5,6 @@
 * create .eslintrc file with:
   ```
   "extends": [
-    "madbooster-react-app"
+    "madbooster-node-app"
   ]
   ```
