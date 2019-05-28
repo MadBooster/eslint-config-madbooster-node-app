@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-madbooster-node-app",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Shared eslint config for madbooster node projects",
   "main": "index.js",
   "scripts": {
