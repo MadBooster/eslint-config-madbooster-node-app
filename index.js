@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    "plugin:promise/recommended",
     "standard"
   ],
   rules: {
@@ -47,6 +48,8 @@ module.exports = {
       {
         "varsIgnorePattern": "^___"
       }
-    ]
+    ],
+    "promise/no-nesting": 0,
+    "promise/no-callback-in-promise": 0 //in express you need to call next()
   }
 }
