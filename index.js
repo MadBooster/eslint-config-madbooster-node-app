@@ -4,6 +4,13 @@ module.exports = {
     "standard"
   ],
   rules: {
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
     "keyword-spacing": [
       "error",
       {
@@ -46,9 +53,12 @@ module.exports = {
     "no-unused-vars": [
       "error",
       {
-        "varsIgnorePattern": "^___"
+        "varsIgnorePattern": "^__",
+        "argsIgnorePattern": "^__",
+        "caughtErrorsIgnorePattern": "^__"
       }
     ],
+    "arrow-parens": [1, "as-needed"],
     "promise/no-nesting": 0,
     "promise/no-callback-in-promise": 0 //in express you need to call next()
   }
