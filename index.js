@@ -1,65 +1,93 @@
 module.exports = {
+  plugins: [
+    'lodash',
+    'lodash-fp',
+    'you-dont-need-lodash-underscore'
+  ],
   extends: [
-    "plugin:promise/recommended",
-    "standard"
+    'plugin:promise/recommended',
+    'standard',
+    'plugin:lodash/recommended',
+    'plugin:lodash-fp/recommended',
+    'plugin:you-dont-need-lodash-underscore/compatible-warn'
   ],
   rules: {
-    "quotes": [
-      "error",
-      "single",
+    'arrow-parens': [1, 'as-needed'],
+    'generator-star-spacing': [
+      'error',
       {
-        "allowTemplateLiterals": true
+        before: false,
+        after: true
       }
     ],
-    "keyword-spacing": [
-      "error",
+    'keyword-spacing': [
+      'error',
       {
-        "after": true,
-        "before": true,
-        "overrides": {
-          "if": {
-            "after": false
+        after: true,
+        before: true,
+        overrides: {
+          if: {
+            after: false
           },
-          "for": {
-            "after": false
+          for: {
+            after: false
           },
-          "while": {
-            "after": false
+          while: {
+            after: false
           },
-          "switch": {
-            "after": false
+          switch: {
+            after: false
           },
-          "catch": {
-            "after": false
+          catch: {
+            after: false
           }
         }
       }
     ],
-    "space-before-function-paren": [
-      "error",
-      "never"
-    ],
-    "generator-star-spacing": [
-      "error",
+    'no-console': [
+      'warn',
       {
-        "before": false,
-        "after": true
+        allow: ['warn', 'error']
       }
     ],
-    "object-curly-spacing": [
-      "error",
-      "always"
-    ],
-    "no-unused-vars": [
-      "error",
+    'no-unused-vars': [
+      'warn',
       {
-        "varsIgnorePattern": "^__",
-        "argsIgnorePattern": "^__",
-        "caughtErrorsIgnorePattern": "^__"
+        varsIgnorePattern: '^__',
+        argsIgnorePattern: '^__',
+        caughtErrorsIgnorePattern: '^__',
+        // from extended configs
+        args: 'none',
+        ignoreRestSiblings: true
       }
     ],
-    "arrow-parens": [1, "as-needed"],
-    "promise/no-nesting": 0,
-    "promise/no-callback-in-promise": 0 //in express you need to call next()
+    'object-curly-spacing': [
+      'error',
+      'always'
+    ],
+    quotes: [
+      'error',
+      'single',
+      {
+        allowTemplateLiterals: true
+      }
+    ],
+    'space-before-function-paren': [
+      'error',
+      'never'
+    ],
+
+    'promise/no-callback-in-promise': 0, // in express you need to call next()
+    'promise/no-nesting': 0,
+
+    'lodash/import-scope': [1, 'method'],
+    'lodash/prefer-lodash-method': 0,
+
+    'lodash-fp/no-extraneous-args': 0,
+    'lodash-fp/prefer-get': 0,
+    'lodash-fp/use-fp': 0,
+
+    'you-dont-need-lodash-underscore/is-function': 0,
+    'you-dont-need-lodash-underscore/is-string': 0
   }
 }
