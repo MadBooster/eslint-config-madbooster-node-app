@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-madbooster-node-app",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "Shared eslint config for madbooster node projects",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,8 @@
     "eslint": ">=7.14",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-lodash": "^7.3.0",
+    "eslint-plugin-lodash-fp": "^2.2.0-a1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
