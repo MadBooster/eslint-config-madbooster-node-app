@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-madbooster-node-app",
-  "version": "6.2.0",
+  "version": "6.2.1",
   "description": "Shared eslint config for madbooster node projects",
   "main": "index.js",
   "scripts": {
@@ -13,19 +13,19 @@
     "url": "git://github.com/MadBooster/eslint-config-madbooster-node-app.git"
   },
   "devDependencies": {
-    "eslint": "^8.30.0",
-    "eslint-config-madbooster-common": "^1.0.0",
+    "eslint": "^8.39.0",
+    "eslint-config-madbooster-common": "^1.0.1",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1"
   },
   "peerDependencies": {
     "eslint": ">=7.14",
-    "eslint-config-madbooster-common": "^1.0.0",
+    "eslint-config-madbooster-common": "^1.0.1",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1"
   }
 }
