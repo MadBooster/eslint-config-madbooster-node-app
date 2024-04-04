@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-madbooster-node-app",
-  "version": "8.0.1",
+  "version": "9.0.0",
   "description": "Shared eslint config for madbooster node projects",
   "main": "index.js",
   "scripts": {
@@ -13,19 +13,19 @@
     "url": "git://github.com/MadBooster/eslint-config-madbooster-node-app.git"
   },
   "devDependencies": {
-    "eslint": "^8.39.0",
-    "eslint-config-madbooster-common": "^3.0.1",
+    "eslint": "^8.57.0",
+    "eslint-config-madbooster-common": "^4.0.0",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^16.0.2",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1"
   },
   "peerDependencies": {
     "eslint": ">=7.14",
-    "eslint-config-madbooster-common": "^3.0.1",
+    "eslint-config-madbooster-common": "^4.0.0",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^16.0.2",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1"
   }
 }
