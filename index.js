@@ -10,7 +10,6 @@ module.exports = {
 
     'n/no-missing-import': 2,
     'n/no-extraneous-import': 2,
-    'n/file-extension-in-import': 2,
 
     'import/no-commonjs': 2,
     'import/extensions': [
