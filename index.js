@@ -39,7 +39,7 @@ module.exports = {
       }
     },
     n: {
-      tryExtensions: ['.js', '.ts'],
+      tryExtensions: ['.js', '.ts', '.d.ts'],
       typescriptExtensionMap: [
         ['', '.js'],
         ['.js', '.js'],

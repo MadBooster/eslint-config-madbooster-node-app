@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-madbooster-node-app",
-  "version": "10.0.0",
+  "version": "10.0.1",
   "description": "Shared eslint config for madbooster node projects",
   "main": "index.js",
   "scripts": {
@@ -14,21 +14,22 @@
   },
   "devDependencies": {
     "eslint": "^8.57.0",
-    "eslint-config-madbooster-common": "^5.0.1",
+    "eslint-config-madbooster-common": "^5.0.3",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "^17.9.0",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-n": "^17.10.3",
+    "eslint-plugin-promise": "^7.1.0"
   },
   "peerDependencies": {
     "eslint": ">=7.14",
-    "eslint-config-madbooster-common": "^5.0.0",
+    "eslint-config-madbooster-common": "^5.0.3",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "^17.9.0",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-n": "^17.10.3",
+    "eslint-plugin-promise": "^7.1.0"
   },
   "overrides": {
-    "eslint-plugin-n": "$eslint-plugin-n"
+    "eslint-plugin-n": "$eslint-plugin-n",
+    "eslint-plugin-promise": "$eslint-plugin-promise"
   }
 }
