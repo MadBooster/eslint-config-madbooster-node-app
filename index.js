@@ -10,7 +10,6 @@ export default defineConfig(
       rules: {
         'promise/no-callback-in-promise': 0, // in express you need to call next()
         'promise/no-nesting': 0,
-        'import-x/no-commonjs': 2,
 
         'import-x/extensions': [2, 'ignorePackages', {
           js: 'ignorePackages',
